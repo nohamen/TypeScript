@@ -1,8 +1,8 @@
 # Hi <img src="https://user-images.githubusercontent.com/72663882/171687151-bb31c996-c9d2-49c8-b593-734946893b23.gif" alt="waving hand gif" aria-hidden="true" width="40" />
 
 ## Im Going To Be Giving Example's On How To Use TypeScript In Several Way's 
-
-`// 1. Type Annotations
+```html
+// 1. Type Annotations
 function greet(name: string): string {
   return `Hello, ${name}!`;
 }
@@ -41,7 +41,7 @@ dog.speak();
 function identity<T>(arg: T): T {
   return arg;
 }
-console.log(identity<number>(42));`
+console.log(identity<number>(42));
 console.log(identity<string>("TypeScript"));
 
 //
